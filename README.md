@@ -1,30 +1,62 @@
 # DaAnalie-AI
 AI-powered candidate selection tool
 
-DaAnalie AI - Intelligent Applicant Selection Tool
+Intelligent Hiring System using AI-Powered Applicant Ranking
 
-DaAnalie AI is an advanced, AI-powered platform designed to revolutionize the hiring process. It helps organizations intelligently analyze, rank, and recommend the best candidates based on skills, experience, and education.
+DaAnalie AI helps organizations and programs like LSETF/PLP automatically analyze and rank applicants using AI. It processes resumes, cover letters, and assessments to recommend the best candidates based on set criteria.
+
+🔧 Tech Stack
+
+- Frontend: React + Tailwind CSS
+- Backend: Node.js, Express
+- AI: OpenAI API
+- Database: PostgreSQL
+- Auth: JWT + Nodemailer (for email verification)
 
 🚀 Features
-- AI-driven resume and cover letter analysis
-- Smart candidate ranking based on predefined criteria
-- Seamless future integration with LSETF’s LMS platform
-- Secure user sign-up and verification system
-- Beautiful, responsive UI with vibrant color scheme
-- Admin panel for managing applicants and selections
 
-🛠️ Built With
-- *Frontend:* HTML, CSS, JavaScript
-- *Backend:* Node.js, Express
-- *Database:* PostgreSQL
-- *AI Integration:* OpenAI API
-- *Deployment:* Replit, GitHub Pages (temporary), Netlify (planned)
+- User registration and email verification
+- Secure login system
+- AI-powered applicant analysis and ranking
+- Admin dashboard for viewing top candidates
+- Responsive design
+- Ready for LMS integration
 
-📌 Status
-✅ MVP functional  
-⚙️ Backend verification and API in progress  
-📦 Deployment in staging  
-🧠 AI candidate ranking training underway
+📦 Setup Instructions
 
-📩 Contact
-For inquiries or support: *penuelisaac11@gmail.com*
+1. *Clone the repo:*
+
+bash
+git clone https://github.com/your-username/daanalie-ai.git
+
+
+2. *Install dependencies:*
+
+bash
+cd daanalie-ai
+npm install
+
+3. Set environment variables:
+
+Create a .env file and add:
+
+
+OPENAI_API_KEY=your_openai_key
+DATABASE_URL=your_postgres_url
+SESSION_SECRET=your_secret
+
+
+4. Run the app:
+
+bash
+npm run dev
+
+
+🌐 Live Demo
+
+[https://DaAnalie.replit.app](https://DaAnalie.replit.app)
+
+📧 Contact
+For inquiries: penuelisaac11@gmail.com
+
+For inquiries: penuelisaac11@gmail.com
